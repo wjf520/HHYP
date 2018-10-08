@@ -7,14 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34F547F670BC7CC9B56972EA /* libPods-HHYPUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9FEA2B47C3F992CF866767 /* libPods-HHYPUITests.a */; };
+		9C10831CD6135D467D521E47 /* libPods-HHYP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D84B4D4E39C040CDA046A3 /* libPods-HHYP.a */; };
+		B278D38F04331DACA86DCEF7 /* libPods-HHYPTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8011EA82C538A53546D30FD /* libPods-HHYPTests.a */; };
 		BE3BF9B3215A0C5400B64890 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3BF9B2215A0C5400B64890 /* AppDelegate.m */; };
-		BE3BF9B6215A0C5400B64890 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3BF9B5215A0C5400B64890 /* ViewController.m */; };
 		BE3BF9B9215A0C5400B64890 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE3BF9B7215A0C5400B64890 /* Main.storyboard */; };
 		BE3BF9BB215A0C6500B64890 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE3BF9BA215A0C6500B64890 /* Assets.xcassets */; };
 		BE3BF9BE215A0C6500B64890 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE3BF9BC215A0C6500B64890 /* LaunchScreen.storyboard */; };
 		BE3BF9C1215A0C6500B64890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3BF9C0215A0C6500B64890 /* main.m */; };
 		BE3BF9CB215A0C6500B64890 /* HHYPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3BF9CA215A0C6500B64890 /* HHYPTests.m */; };
 		BE3BF9D6215A0C6500B64890 /* HHYPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3BF9D5215A0C6500B64890 /* HHYPUITests.m */; };
+		BE496B55215B55EC0051C9B0 /* HHYPPayManger.m in Sources */ = {isa = PBXBuildFile; fileRef = BE496B54215B55EC0051C9B0 /* HHYPPayManger.m */; };
+		BE496B6C215B64650051C9B0 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE496B6B215B64650051C9B0 /* CoreMotion.framework */; };
+		BE496B6F215B6A6A0051C9B0 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BE496B6D215B6A690051C9B0 /* AlipaySDK.bundle */; };
+		BE496B70215B6A6A0051C9B0 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE496B6E215B6A690051C9B0 /* AlipaySDK.framework */; };
+		BE496B73215B722F0051C9B0 /* HHYPRequestManger.m in Sources */ = {isa = PBXBuildFile; fileRef = BE496B72215B722F0051C9B0 /* HHYPRequestManger.m */; };
+		BE496B79215B7C8B0051C9B0 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = BE496B78215B7C8B0051C9B0 /* UIView+Category.m */; };
+		BE4ACBC221609EA7007C4809 /* HHYPRegisterVc.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4ACBC121609EA6007C4809 /* HHYPRegisterVc.m */; };
+		BE5F9F88215DB9E00001C920 /* HHYPBaseTabVc.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5F9F87215DB9E00001C920 /* HHYPBaseTabVc.m */; };
+		BE5F9F8E215DBAD60001C920 /* HHYPBaseNavigationVc.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5F9F8D215DBAD60001C920 /* HHYPBaseNavigationVc.m */; };
+		BE5F9F97215DBFF40001C920 /* HHYPMineVc.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5F9F96215DBFF40001C920 /* HHYPMineVc.m */; };
+		BE5F9F9A215E10790001C920 /* HHYPMineCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5F9F99215E10790001C920 /* HHYPMineCollectionCell.m */; };
+		BE5F9FA0215E2AE00001C920 /* HHYPClassfifyVc.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5F9F9F215E2ADF0001C920 /* HHYPClassfifyVc.m */; };
+		BE5F9FA3215E2C850001C920 /* HHYPClassfifyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5F9FA2215E2C850001C920 /* HHYPClassfifyCell.m */; };
+		BE5F9FA9215E35DC0001C920 /* HHYPClassfifyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5F9FA8215E35DC0001C920 /* HHYPClassfifyCollectionViewCell.m */; };
+		BE7464F3215F1127000F136F /* HHYPMinetableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7464F2215F1127000F136F /* HHYPMinetableViewCell.m */; };
+		BE7464F9215F1AAA000F136F /* HHYPIndexVc.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7464F8215F1AAA000F136F /* HHYPIndexVc.m */; };
+		BE7464FC215F2136000F136F /* HHYPIndexCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7464FB215F2136000F136F /* HHYPIndexCollectionViewCell.m */; };
+		BE7464FF215F250E000F136F /* HHYPIndexGoodsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7464FE215F250E000F136F /* HHYPIndexGoodsCollectionViewCell.m */; };
+		BE746502215F2A26000F136F /* HHYPIndexHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BE746501215F2A26000F136F /* HHYPIndexHeader.m */; };
+		BE746505215F5498000F136F /* HHYPIndexClassfifyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BE746504215F5498000F136F /* HHYPIndexClassfifyHeader.m */; };
+		BE74650C215F8941000F136F /* HHYPLoginVc.m in Sources */ = {isa = PBXBuildFile; fileRef = BE74650B215F8941000F136F /* HHYPLoginVc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +57,38 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		BE496B68215B63F20051C9B0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE496B6A215B63F60051C9B0 /* Embed PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		11B55B0BA1BC85B041238DE0 /* Pods-HHYP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHYP.release.xcconfig"; path = "Pods/Target Support Files/Pods-HHYP/Pods-HHYP.release.xcconfig"; sourceTree = "<group>"; };
+		137B0009D9E5459E2D282F6A /* Pods-HHYPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHYPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HHYPTests/Pods-HHYPTests.release.xcconfig"; sourceTree = "<group>"; };
+		2E32A06E95941A41F7ECBC2E /* Pods-HHYPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHYPUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHYPUITests/Pods-HHYPUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		72DE32DFDDCC17F4D397E4E2 /* Pods-HHYPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHYPTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHYPTests/Pods-HHYPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F9FEA2B47C3F992CF866767 /* libPods-HHYPUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HHYPUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3BF9AE215A0C5400B64890 /* HHYP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHYP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3BF9B1215A0C5400B64890 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BE3BF9B2215A0C5400B64890 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BE3BF9B4215A0C5400B64890 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BE3BF9B5215A0C5400B64890 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BE3BF9B8215A0C5400B64890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE3BF9BA215A0C6500B64890 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE3BF9BD215A0C6500B64890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +100,51 @@
 		BE3BF9D1215A0C6500B64890 /* HHYPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HHYPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3BF9D5215A0C6500B64890 /* HHYPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHYPUITests.m; sourceTree = "<group>"; };
 		BE3BF9D7215A0C6500B64890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE496B53215B55EC0051C9B0 /* HHYPPayManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHYPPayManger.h; sourceTree = "<group>"; };
+		BE496B54215B55EC0051C9B0 /* HHYPPayManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHYPPayManger.m; sourceTree = "<group>"; };
+		BE496B6B215B64650051C9B0 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		BE496B6D215B6A690051C9B0 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		BE496B6E215B6A690051C9B0 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		BE496B71215B722F0051C9B0 /* HHYPRequestManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHYPRequestManger.h; sourceTree = "<group>"; };
+		BE496B72215B722F0051C9B0 /* HHYPRequestManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHYPRequestManger.m; sourceTree = "<group>"; };
+		BE496B77215B7C8B0051C9B0 /* UIView+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		BE496B78215B7C8B0051C9B0 /* UIView+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		BE4ACBC021609EA6007C4809 /* HHYPRegisterVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHYPRegisterVc.h; sourceTree = "<group>"; };
+		BE4ACBC121609EA6007C4809 /* HHYPRegisterVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHYPRegisterVc.m; sourceTree = "<group>"; };
+		BE5F9F84215DB7BF0001C920 /* HHYP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHYP.h; sourceTree = "<group>"; };
+		BE5F9F85215DB8470001C920 /* HHYP.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHYP.pch; sourceTree = "<group>"; };
+		BE5F9F86215DB9E00001C920 /* HHYPBaseTabVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHYPBaseTabVc.h; sourceTree = "<group>"; };
+		BE5F9F87215DB9E00001C920 /* HHYPBaseTabVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHYPBaseTabVc.m; sourceTree = "<group>"; };
+		BE5F9F8C215DBAD60001C920 /* HHYPBaseNavigationVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHYPBaseNavigationVc.h; sourceTree = "<group>"; };
+		BE5F9F8D215DBAD60001C920 /* HHYPBaseNavigationVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHYPBaseNavigationVc.m; sourceTree = "<group>"; };
+		BE5F9F95215DBFF40001C920 /* HHYPMineVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHYPMineVc.h; sourceTree = "<group>"; };
+		BE5F9F96215DBFF40001C920 /* HHYPMineVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHYPMineVc.m; sourceTree = "<group>"; };
+		BE5F9F98215E10790001C920 /* HHYPMineCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHYPMineCollectionCell.h; sourceTree = "<group>"; };
+		BE5F9F99215E10790001C920 /* HHYPMineCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHYPMineCollectionCell.m; sourceTree = "<group>"; };
+		BE5F9F9E215E2ADF0001C920 /* HHYPClassfifyVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHYPClassfifyVc.h; sourceTree = "<group>"; };
+		BE5F9F9F215E2ADF0001C920 /* HHYPClassfifyVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHYPClassfifyVc.m; sourceTree = "<group>"; };
+		BE5F9FA1215E2C850001C920 /* HHYPClassfifyCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHYPClassfifyCell.h; sourceTree = "<group>"; };
+		BE5F9FA2215E2C850001C920 /* HHYPClassfifyCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHYPClassfifyCell.m; sourceTree = "<group>"; };
+		BE5F9FA7215E35DC0001C920 /* HHYPClassfifyCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHYPClassfifyCollectionViewCell.h; sourceTree = "<group>"; };
+		BE5F9FA8215E35DC0001C920 /* HHYPClassfifyCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHYPClassfifyCollectionViewCell.m; sourceTree = "<group>"; };
+		BE7464F1215F1127000F136F /* HHYPMinetableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHYPMinetableViewCell.h; sourceTree = "<group>"; };
+		BE7464F2215F1127000F136F /* HHYPMinetableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHYPMinetableViewCell.m; sourceTree = "<group>"; };
+		BE7464F7215F1AAA000F136F /* HHYPIndexVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHYPIndexVc.h; sourceTree = "<group>"; };
+		BE7464F8215F1AAA000F136F /* HHYPIndexVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHYPIndexVc.m; sourceTree = "<group>"; };
+		BE7464FA215F2136000F136F /* HHYPIndexCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHYPIndexCollectionViewCell.h; sourceTree = "<group>"; };
+		BE7464FB215F2136000F136F /* HHYPIndexCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHYPIndexCollectionViewCell.m; sourceTree = "<group>"; };
+		BE7464FD215F250E000F136F /* HHYPIndexGoodsCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHYPIndexGoodsCollectionViewCell.h; sourceTree = "<group>"; };
+		BE7464FE215F250E000F136F /* HHYPIndexGoodsCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHYPIndexGoodsCollectionViewCell.m; sourceTree = "<group>"; };
+		BE746500215F2A26000F136F /* HHYPIndexHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHYPIndexHeader.h; sourceTree = "<group>"; };
+		BE746501215F2A26000F136F /* HHYPIndexHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHYPIndexHeader.m; sourceTree = "<group>"; };
+		BE746503215F5498000F136F /* HHYPIndexClassfifyHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHYPIndexClassfifyHeader.h; sourceTree = "<group>"; };
+		BE746504215F5498000F136F /* HHYPIndexClassfifyHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHYPIndexClassfifyHeader.m; sourceTree = "<group>"; };
+		BE74650A215F8941000F136F /* HHYPLoginVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHYPLoginVc.h; sourceTree = "<group>"; };
+		BE74650B215F8941000F136F /* HHYPLoginVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHYPLoginVc.m; sourceTree = "<group>"; };
+		CC54F0491A9C4DC8DE025EEF /* Pods-HHYP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHYP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHYP/Pods-HHYP.debug.xcconfig"; sourceTree = "<group>"; };
+		D3D84B4D4E39C040CDA046A3 /* libPods-HHYP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HHYP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8011EA82C538A53546D30FD /* libPods-HHYPTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HHYPTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2AB702AC19A7FBA1BAB33F /* Pods-HHYPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHYPUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HHYPUITests/Pods-HHYPUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +152,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE496B6C215B64650051C9B0 /* CoreMotion.framework in Frameworks */,
+				9C10831CD6135D467D521E47 /* libPods-HHYP.a in Frameworks */,
+				BE496B70215B6A6A0051C9B0 /* AlipaySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +162,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B278D38F04331DACA86DCEF7 /* libPods-HHYPTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +170,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34F547F670BC7CC9B56972EA /* libPods-HHYPUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4BFBA35DAD3ADA194B68F86E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE496B6B215B64650051C9B0 /* CoreMotion.framework */,
+				D3D84B4D4E39C040CDA046A3 /* libPods-HHYP.a */,
+				D8011EA82C538A53546D30FD /* libPods-HHYPTests.a */,
+				9F9FEA2B47C3F992CF866767 /* libPods-HHYPUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		774F408B1549330510EFB99D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC54F0491A9C4DC8DE025EEF /* Pods-HHYP.debug.xcconfig */,
+				11B55B0BA1BC85B041238DE0 /* Pods-HHYP.release.xcconfig */,
+				72DE32DFDDCC17F4D397E4E2 /* Pods-HHYPTests.debug.xcconfig */,
+				137B0009D9E5459E2D282F6A /* Pods-HHYPTests.release.xcconfig */,
+				2E32A06E95941A41F7ECBC2E /* Pods-HHYPUITests.debug.xcconfig */,
+				EC2AB702AC19A7FBA1BAB33F /* Pods-HHYPUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BE3BF9A5215A0C5400B64890 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +208,8 @@
 				BE3BF9C9215A0C6500B64890 /* HHYPTests */,
 				BE3BF9D4215A0C6500B64890 /* HHYPUITests */,
 				BE3BF9AF215A0C5400B64890 /* Products */,
+				774F408B1549330510EFB99D /* Pods */,
+				4BFBA35DAD3ADA194B68F86E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +226,14 @@
 		BE3BF9B0215A0C5400B64890 /* HHYP */ = {
 			isa = PBXGroup;
 			children = (
+				BE3BF9E9215A16AC00B64890 /* Others */,
+				BE3BF9E7215A169D00B64890 /* Base */,
+				BE3BF9E6215A163000B64890 /* LIb */,
+				BE3BF9E5215A15FC00B64890 /* Third Party */,
+				BE3BF9E4215A15BC00B64890 /* Category */,
+				BE3BF9E3215A15B500B64890 /* Class */,
 				BE3BF9B1215A0C5400B64890 /* AppDelegate.h */,
 				BE3BF9B2215A0C5400B64890 /* AppDelegate.m */,
-				BE3BF9B4215A0C5400B64890 /* ViewController.h */,
-				BE3BF9B5215A0C5400B64890 /* ViewController.m */,
 				BE3BF9B7215A0C5400B64890 /* Main.storyboard */,
 				BE3BF9BA215A0C6500B64890 /* Assets.xcassets */,
 				BE3BF9BC215A0C6500B64890 /* LaunchScreen.storyboard */,
@@ -132,6 +261,216 @@
 			path = HHYPUITests;
 			sourceTree = "<group>";
 		};
+		BE3BF9E3215A15B500B64890 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				BE746506215F8865000F136F /* Login&register */,
+				BE5F9F91215DBB760001C920 /* Mine（我的） */,
+				BE5F9F90215DBB2B0001C920 /* Classfify（分类） */,
+				BE5F9F8F215DBB070001C920 /* Index（首页） */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		BE3BF9E4215A15BC00B64890 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BE496B77215B7C8B0051C9B0 /* UIView+Category.h */,
+				BE496B78215B7C8B0051C9B0 /* UIView+Category.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		BE3BF9E5215A15FC00B64890 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Third Party";
+			sourceTree = "<group>";
+		};
+		BE3BF9E6215A163000B64890 /* LIb */ = {
+			isa = PBXGroup;
+			children = (
+				BE496B6D215B6A690051C9B0 /* AlipaySDK.bundle */,
+				BE496B6E215B6A690051C9B0 /* AlipaySDK.framework */,
+			);
+			path = LIb;
+			sourceTree = "<group>";
+		};
+		BE3BF9E7215A169D00B64890 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BE5F9F86215DB9E00001C920 /* HHYPBaseTabVc.h */,
+				BE5F9F87215DB9E00001C920 /* HHYPBaseTabVc.m */,
+				BE5F9F8C215DBAD60001C920 /* HHYPBaseNavigationVc.h */,
+				BE5F9F8D215DBAD60001C920 /* HHYPBaseNavigationVc.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		BE3BF9E9215A16AC00B64890 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				BE496B53215B55EC0051C9B0 /* HHYPPayManger.h */,
+				BE496B54215B55EC0051C9B0 /* HHYPPayManger.m */,
+				BE496B71215B722F0051C9B0 /* HHYPRequestManger.h */,
+				BE496B72215B722F0051C9B0 /* HHYPRequestManger.m */,
+				BE5F9F84215DB7BF0001C920 /* HHYP.h */,
+				BE5F9F85215DB8470001C920 /* HHYP.pch */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		BE5F9F8F215DBB070001C920 /* Index（首页） */ = {
+			isa = PBXGroup;
+			children = (
+				BE7464F6215F18F9000F136F /* Controller */,
+				BE7464F5215F18F3000F136F /* View */,
+				BE7464F4215F18EC000F136F /* Model */,
+			);
+			path = "Index（首页）";
+			sourceTree = "<group>";
+		};
+		BE5F9F90215DBB2B0001C920 /* Classfify（分类） */ = {
+			isa = PBXGroup;
+			children = (
+				BE5F9F9D215E2AB80001C920 /* Controller */,
+				BE5F9F9C215E2AB30001C920 /* View */,
+				BE5F9F9B215E2AAB0001C920 /* Model */,
+			);
+			path = "Classfify（分类）";
+			sourceTree = "<group>";
+		};
+		BE5F9F91215DBB760001C920 /* Mine（我的） */ = {
+			isa = PBXGroup;
+			children = (
+				BE5F9F94215DBB9F0001C920 /* Controller */,
+				BE5F9F93215DBB980001C920 /* View */,
+				BE5F9F92215DBB910001C920 /* Model */,
+			);
+			path = "Mine（我的）";
+			sourceTree = "<group>";
+		};
+		BE5F9F92215DBB910001C920 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE5F9F93215DBB980001C920 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE5F9F98215E10790001C920 /* HHYPMineCollectionCell.h */,
+				BE5F9F99215E10790001C920 /* HHYPMineCollectionCell.m */,
+				BE7464F1215F1127000F136F /* HHYPMinetableViewCell.h */,
+				BE7464F2215F1127000F136F /* HHYPMinetableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE5F9F94215DBB9F0001C920 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BE5F9F95215DBFF40001C920 /* HHYPMineVc.h */,
+				BE5F9F96215DBFF40001C920 /* HHYPMineVc.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BE5F9F9B215E2AAB0001C920 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE5F9F9C215E2AB30001C920 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE5F9FA1215E2C850001C920 /* HHYPClassfifyCell.h */,
+				BE5F9FA2215E2C850001C920 /* HHYPClassfifyCell.m */,
+				BE5F9FA7215E35DC0001C920 /* HHYPClassfifyCollectionViewCell.h */,
+				BE5F9FA8215E35DC0001C920 /* HHYPClassfifyCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE5F9F9D215E2AB80001C920 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BE5F9F9E215E2ADF0001C920 /* HHYPClassfifyVc.h */,
+				BE5F9F9F215E2ADF0001C920 /* HHYPClassfifyVc.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BE7464F4215F18EC000F136F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE7464F5215F18F3000F136F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE7464FA215F2136000F136F /* HHYPIndexCollectionViewCell.h */,
+				BE7464FB215F2136000F136F /* HHYPIndexCollectionViewCell.m */,
+				BE7464FD215F250E000F136F /* HHYPIndexGoodsCollectionViewCell.h */,
+				BE7464FE215F250E000F136F /* HHYPIndexGoodsCollectionViewCell.m */,
+				BE746500215F2A26000F136F /* HHYPIndexHeader.h */,
+				BE746501215F2A26000F136F /* HHYPIndexHeader.m */,
+				BE746503215F5498000F136F /* HHYPIndexClassfifyHeader.h */,
+				BE746504215F5498000F136F /* HHYPIndexClassfifyHeader.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE7464F6215F18F9000F136F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BE7464F7215F1AAA000F136F /* HHYPIndexVc.h */,
+				BE7464F8215F1AAA000F136F /* HHYPIndexVc.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BE746506215F8865000F136F /* Login&register */ = {
+			isa = PBXGroup;
+			children = (
+				BE746509215F888A000F136F /* Controller */,
+				BE746508215F8884000F136F /* View */,
+				BE746507215F887B000F136F /* Model */,
+			);
+			path = "Login&register";
+			sourceTree = "<group>";
+		};
+		BE746507215F887B000F136F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE746508215F8884000F136F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE746509215F888A000F136F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BE74650A215F8941000F136F /* HHYPLoginVc.h */,
+				BE74650B215F8941000F136F /* HHYPLoginVc.m */,
+				BE4ACBC021609EA6007C4809 /* HHYPRegisterVc.h */,
+				BE4ACBC121609EA6007C4809 /* HHYPRegisterVc.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +478,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE3BF9DA215A0C6500B64890 /* Build configuration list for PBXNativeTarget "HHYP" */;
 			buildPhases = (
+				B9D9DE44983F855F41AFD992 /* [CP] Check Pods Manifest.lock */,
 				BE3BF9AA215A0C5400B64890 /* Sources */,
 				BE3BF9AB215A0C5400B64890 /* Frameworks */,
 				BE3BF9AC215A0C5400B64890 /* Resources */,
+				506C13E0BACD66913C7FB31A /* [CP] Copy Pods Resources */,
+				BE496B68215B63F20051C9B0 /* Embed Frameworks */,
+				BE496B6A215B63F60051C9B0 /* Embed PlugIns */,
 			);
 			buildRules = (
 			);
@@ -156,6 +499,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE3BF9DD215A0C6500B64890 /* Build configuration list for PBXNativeTarget "HHYPTests" */;
 			buildPhases = (
+				CF6388976FE6D77A2852E1D5 /* [CP] Check Pods Manifest.lock */,
 				BE3BF9C2215A0C6500B64890 /* Sources */,
 				BE3BF9C3215A0C6500B64890 /* Frameworks */,
 				BE3BF9C4215A0C6500B64890 /* Resources */,
@@ -174,6 +518,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE3BF9E0215A0C6500B64890 /* Build configuration list for PBXNativeTarget "HHYPUITests" */;
 			buildPhases = (
+				100E9A1E4A1952BBFDA14F41 /* [CP] Check Pods Manifest.lock */,
 				BE3BF9CD215A0C6500B64890 /* Sources */,
 				BE3BF9CE215A0C6500B64890 /* Frameworks */,
 				BE3BF9CF215A0C6500B64890 /* Resources */,
@@ -194,6 +539,7 @@
 		BE3BF9A6215A0C5400B64890 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HHYP;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "伍家发";
 				TargetAttributes = {
@@ -237,6 +583,7 @@
 			files = (
 				BE3BF9BE215A0C6500B64890 /* LaunchScreen.storyboard in Resources */,
 				BE3BF9BB215A0C6500B64890 /* Assets.xcassets in Resources */,
+				BE496B6F215B6A6A0051C9B0 /* AlipaySDK.bundle in Resources */,
 				BE3BF9B9215A0C5400B64890 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,14 +604,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		100E9A1E4A1952BBFDA14F41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HHYPUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		506C13E0BACD66913C7FB31A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HHYP/Pods-HHYP-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/ProgressHUD/ProgressHUD/ProgressHUD/ProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HHYP/Pods-HHYP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9D9DE44983F855F41AFD992 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HHYP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF6388976FE6D77A2852E1D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HHYPTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BE3BF9AA215A0C5400B64890 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE3BF9B6215A0C5400B64890 /* ViewController.m in Sources */,
+				BE5F9FA3215E2C850001C920 /* HHYPClassfifyCell.m in Sources */,
+				BE74650C215F8941000F136F /* HHYPLoginVc.m in Sources */,
 				BE3BF9C1215A0C6500B64890 /* main.m in Sources */,
+				BE7464FC215F2136000F136F /* HHYPIndexCollectionViewCell.m in Sources */,
+				BE746505215F5498000F136F /* HHYPIndexClassfifyHeader.m in Sources */,
+				BE5F9F9A215E10790001C920 /* HHYPMineCollectionCell.m in Sources */,
 				BE3BF9B3215A0C5400B64890 /* AppDelegate.m in Sources */,
+				BE7464FF215F250E000F136F /* HHYPIndexGoodsCollectionViewCell.m in Sources */,
+				BE5F9F97215DBFF40001C920 /* HHYPMineVc.m in Sources */,
+				BE5F9F88215DB9E00001C920 /* HHYPBaseTabVc.m in Sources */,
+				BE496B73215B722F0051C9B0 /* HHYPRequestManger.m in Sources */,
+				BE746502215F2A26000F136F /* HHYPIndexHeader.m in Sources */,
+				BE5F9FA0215E2AE00001C920 /* HHYPClassfifyVc.m in Sources */,
+				BE5F9FA9215E35DC0001C920 /* HHYPClassfifyCollectionViewCell.m in Sources */,
+				BE5F9F8E215DBAD60001C920 /* HHYPBaseNavigationVc.m in Sources */,
+				BE496B79215B7C8B0051C9B0 /* UIView+Category.m in Sources */,
+				BE7464F3215F1127000F136F /* HHYPMinetableViewCell.m in Sources */,
+				BE7464F9215F1AAA000F136F /* HHYPIndexVc.m in Sources */,
+				BE4ACBC221609EA7007C4809 /* HHYPRegisterVc.m in Sources */,
+				BE496B55215B55EC0051C9B0 /* HHYPPayManger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +827,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -423,7 +880,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -433,38 +890,69 @@
 		};
 		BE3BF9DB215A0C6500B64890 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC54F0491A9C4DC8DE025EEF /* Pods-HHYP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K4TYX53VTZ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HHYP/LIb",
+					"$(PROJECT_DIR)/HHYP/LIb/ALiPay",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HHYP/Others/HHYP.pch";
 				INFOPLIST_FILE = HHYP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HHYP/LIb/WeChatPay",
+					"$(PROJECT_DIR)/HHYP/LIb/ALiPay",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sanguobuluo.HHYP.HHYP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		BE3BF9DC215A0C6500B64890 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11B55B0BA1BC85B041238DE0 /* Pods-HHYP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K4TYX53VTZ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HHYP/LIb",
+					"$(PROJECT_DIR)/HHYP/LIb/ALiPay",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HHYP/Others/HHYP.pch";
 				INFOPLIST_FILE = HHYP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HHYP/LIb/WeChatPay",
+					"$(PROJECT_DIR)/HHYP/LIb/ALiPay",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sanguobuluo.HHYP.HHYP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		BE3BF9DE215A0C6500B64890 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72DE32DFDDCC17F4D397E4E2 /* Pods-HHYPTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -483,6 +971,7 @@
 		};
 		BE3BF9DF215A0C6500B64890 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 137B0009D9E5459E2D282F6A /* Pods-HHYPTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -501,6 +990,7 @@
 		};
 		BE3BF9E1215A0C6500B64890 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E32A06E95941A41F7ECBC2E /* Pods-HHYPUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HHYPUITests/Info.plist;
@@ -518,6 +1008,7 @@
 		};
 		BE3BF9E2215A0C6500B64890 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC2AB702AC19A7FBA1BAB33F /* Pods-HHYPUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HHYPUITests/Info.plist;

@@ -2,9 +2,31 @@
 //  AppDelegate.m
 //  HHYP
 //
-//  Created by 伍家发 on 2018/9/25.
-//  Copyright © 2018年 伍家发. All rights reserved.
+//  Created by JFWoo on 2018/9/25.
+//  Copyright © 2018年 JFWoo. All rights reserved.
 //
+//
+//
+//                            _oo0oo_
+//                           o8888888o
+//                           88" . "88
+//                           (| -_- |)
+//                           O\  =  /O
+//                        ____/`---'\____
+//                      .'  \\|     |//  `.
+//                     /  \\|||  :  |||//  \
+//                    /  _||||| -:- |||||-  \
+//                    |   | \\\  -  /// |   |
+//                    | \_|  ''\---/''  |   |
+//                    \  .-\__  `-`  ___/-. /
+//                   ___`. .'  /--.--\  `. . __
+//                ."" '<  `.___\_<|>_/___.'  >'"".
+//              | | :  `- \`.;`\ _ /`;.`/ - ` : | |
+//              \  \ `-.   \_ __\ /__ _/   .-` /  /
+//         ======`-.____`-.___\_____/___.-`____.-'======
+//                            `=---='
+//         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+//                  佛祖镇楼                  BUG辟易
 
 #import "AppDelegate.h"
 
@@ -17,6 +39,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    IQKeyboardManager *manager = [IQKeyboardManager sharedManager];
+    manager.enable = YES;
+    manager.shouldResignOnTouchOutside =YES;
+    manager.shouldToolbarUsesTextFieldTintColor =YES;
+    manager.enableAutoToolbar =YES; // 控制是否显示键盘上的工具条
+    manager.toolbarManageBehaviour =IQAutoToolbarByTag;
+    HHYPBaseTabVc  *rootVc = [[HHYPBaseTabVc alloc]init];
+    self.window.rootViewController = rootVc;
     return YES;
 }
 

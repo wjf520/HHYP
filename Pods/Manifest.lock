@@ -1,0 +1,52 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - IQKeyboardManager (6.1.1)
+  - ProgressHUD (2.60)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - WechatOpenSDK (1.8.2)
+  - ZYBannerView (1.1.4)
+
+DEPENDENCIES:
+  - AFNetworking
+  - IQKeyboardManager
+  - ProgressHUD
+  - SDWebImage
+  - WechatOpenSDK
+  - ZYBannerView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - IQKeyboardManager
+    - ProgressHUD
+    - SDWebImage
+    - WechatOpenSDK
+    - ZYBannerView
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  IQKeyboardManager: 79c57795f5c2408d259d37b9da2ed07efcbb5225
+  ProgressHUD: 4e4efbaf4f5de8bd32e0c4c3b6644a90ea1a8c3e
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  WechatOpenSDK: 676feec516a11173eafd1fe64b10d27babf28701
+  ZYBannerView: 477bcb8c38bb0b2a45bae014f9e4fa8357809023
+
+PODFILE CHECKSUM: 0a52609307466692c6ff1f54f70723ae20834e54
+
+COCOAPODS: 1.5.3
